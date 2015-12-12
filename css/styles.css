@@ -10,37 +10,41 @@ header, footer, .intro, .work, .skills, .about-me, .contact {
   max-width: 80%;
 }
 header img {
-  width: 8rem;
+  width: 12rem;
   margin: 1rem 40% 1rem 40%;
 }
 header li {
   float: left;
   padding: 1rem;
+  list-style: none
 }
 article {
   clear: both;
 }
 
 /* font styling */
+a, footer {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, .bodycopy {
+  font-family: 'Vollkorn', serif;
+}
 a {
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
   color: rgb(14, 133, 143);
 }
 h1 {
-  font-family: 'Vollkorn', serif;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .bodycopy {
-  font-family: 'Vollkorn', serif;
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.75rem;
 }
 footer {
-  font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
 }
 
 /* fonts
