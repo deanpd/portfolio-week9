@@ -1143,6 +1143,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  border: solid 3px rgb(197, 227, 255);
 }
 hr {
   margin-top: 20px;
